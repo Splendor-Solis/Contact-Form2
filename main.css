@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 3;
+    height: 50rem;
+    background-image:
+    linear-gradient(
+        rgba(25, 11, 40, 0.6),
+        rgba(25, 11, 40, 0.6)), 
+        url(img/computer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+
+.heading {
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.form-control {
+    width: 35%;
+    height: 2.5rem;
+}
+
+label {
+    color: white;
+    width: 35%;
+    
+
+}
+
+textarea {
+    width: 35%;
+}
+
+
+.btn-1 {
+    width: 35%;
+    margin-top: 1rem;
+    background: #e17055;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1.2rem 0;
+    font-weight: 500;
+}
