@@ -62,3 +62,32 @@ textarea {
     padding: 1.2rem 0;
     font-weight: 500;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .heading h1 {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+
+    .form-control {
+        width: 60%;
+    }
+
+    label {
+        width: 60%;
+    }
+
+    textarea {
+        width: 60%;
+    }
+
+    .btn-1 {
+        width: 60%;
+    }
+
+
+
+}
