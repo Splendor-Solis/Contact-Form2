@@ -65,7 +65,7 @@ textarea {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .heading h1 {
         font-size: 1.5rem;
         padding-bottom: 1.5rem;
